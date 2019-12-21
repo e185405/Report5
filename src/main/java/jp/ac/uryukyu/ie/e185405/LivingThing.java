@@ -13,7 +13,7 @@ public class LivingThing {
 
     /**
      * コンストラクタ。名前、HP、攻撃力、生死状態を指定する。
-     * @param name 生物名
+     * @param name 生物の名前
      * @param hitPoint 生物のHP
      * @param attack 生物の攻撃力
      * @param dead 生死状態
