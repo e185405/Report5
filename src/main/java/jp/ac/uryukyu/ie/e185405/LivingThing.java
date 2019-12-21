@@ -1,6 +1,23 @@
 package jp.ac.uryukyu.ie.e185405;
 
+/**
+ * 生物クラス。
+ *  String name; //生物の名前
+ *  int hitPoint; //生物のHP
+ *  int attack; //生物の攻撃力
+ *  boolean dead; //生死状態。true=死亡。
+ * Created by tnal on 2019/12/21.
+ */
+
 public class LivingThing {
+
+    /**
+     * コンストラクタ。名前、HP、攻撃力、生死状態を指定する。
+     * @param name 生物名
+     * @param hitPoint 生物のHP
+     * @param attack 生物の攻撃力
+     * @param dead 生死状態
+     */
     private String name;
     private int hitPoint;
     private int attack;
